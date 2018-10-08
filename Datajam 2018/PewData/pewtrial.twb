@@ -1,0 +1,3457 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20182.18.0925.2120                               -->
+<workbook original-version='18.1' source-build='2018.2.2 (20182.18.0925.2120)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='shortPew14.csv+ (Multiple Connections)' inline='true' name='federated.07ddzp714uqfau13wfl251rreufa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='shortPew14' name='textscan.0wocte40tbrrpa1ebqdyl1jpxolg'>
+            <connection class='textscan' directory='/Users/Lucifer/Desktop/Datajam 2018/PewData' filename='shortPew14.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='usefulPewJ16' name='textscan.1qrc12j0xmvak01euphau0xckuib'>
+            <connection class='textscan' directory='/Users/Lucifer/Desktop/Datajam 2018/PewData' filename='usefulPewJ16.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation all='true' connection='textscan.0wocte40tbrrpa1ebqdyl1jpxolg' include-siblings='false' is-recursive='false' name='shortPew14.csv+' path='' type='batch-union'>
+          <database-filter />
+          <table-filter />
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' />
+            <column datatype='integer' name='respid' />
+            <column datatype='string' name='sample' />
+            <column datatype='integer' name='int_date' />
+            <column datatype='integer' name='fcall' />
+            <column datatype='integer' name='attempt' />
+            <column datatype='string' name='refusal' />
+            <column datatype='string' name='lang' />
+            <column datatype='string' name='cregion' />
+            <column datatype='string' name='state' />
+            <column datatype='string' name='density' />
+            <column datatype='string' name='usr' />
+            <column datatype='string' name='scregion' />
+            <column datatype='string' name='sstate' />
+            <column datatype='string' name='sdensity' />
+            <column datatype='string' name='susr' />
+            <column datatype='string' name='llitext0' />
+            <column datatype='string' name='llitext' />
+            <column datatype='string' name='qintro2' />
+            <column datatype='integer' name='phase' />
+            <column datatype='string' name='qs1' />
+            <column datatype='string' name='qa1' />
+            <column datatype='string' name='q1c1' />
+            <column datatype='string' name='qc1a' />
+            <column datatype='string' name='qb2' />
+            <column datatype='string' name='qb3' />
+            <column datatype='string' name='qb4' />
+            <column datatype='string' name='qb5' />
+            <column datatype='string' name='qa6' />
+            <column datatype='string' name='qa8' />
+            <column datatype='string' name='qa9a' />
+            <column datatype='string' name='qa9b' />
+            <column datatype='string' name='qa9c' />
+            <column datatype='string' name='qa9d' />
+            <column datatype='string' name='qa9e' />
+            <column datatype='string' name='qa9f' />
+            <column datatype='string' name='qa9g' />
+            <column datatype='string' name='q11a' />
+            <column datatype='string' name='q11b' />
+            <column datatype='string' name='q11c_b' />
+            <column datatype='string' name='q11e_b' />
+            <column datatype='string' name='q11h_b' />
+            <column datatype='string' name='q11i_b' />
+            <column datatype='string' name='q11j_b' />
+            <column datatype='string' name='q11at' />
+            <column datatype='string' name='q11bt' />
+            <column datatype='string' name='qb12' />
+            <column datatype='string' name='ilang' />
+            <column datatype='string' name='form' />
+            <column datatype='string' name='qs3' />
+            <column datatype='string' name='qs4' />
+            <column datatype='string' name='qs5' />
+            <column datatype='string' name='qs6' />
+            <column datatype='string' name='q1' />
+            <column datatype='string' name='q2' />
+            <column datatype='string' name='campnii' />
+            <column datatype='string' name='thought' />
+            <column datatype='string' name='q5' />
+            <column datatype='string' name='q9' />
+            <column datatype='string' name='q9a' />
+            <column datatype='string' name='Q9HORSE3' />
+            <column datatype='string' name='q10' />
+            <column datatype='string' name='q10a' />
+            <column datatype='string' name='q10b' />
+            <column datatype='string' name='q10c' />
+            <column datatype='string' name='q10d' />
+            <column datatype='string' name='q10horse' />
+            <column datatype='string' name='q11' />
+            <column datatype='string' name='q12' />
+            <column datatype='string' name='oftvote' />
+            <column datatype='string' name='q20' />
+            <column datatype='string' name='q23' />
+            <column datatype='string' name='q24f1' />
+            <column datatype='string' name='q25f2' />
+            <column datatype='string' name='q30a' />
+            <column datatype='string' name='q30b' />
+            <column datatype='string' name='q33a' />
+            <column datatype='string' name='q33b' />
+            <column datatype='string' name='q34a' />
+            <column datatype='string' name='q34b' />
+            <column datatype='string' name='q34c' />
+            <column datatype='string' name='q35' />
+            <column datatype='string' name='q40a' />
+            <column datatype='string' name='q40b' />
+            <column datatype='string' name='q40c' />
+            <column datatype='string' name='q40d' />
+            <column datatype='string' name='q40e' />
+            <column datatype='string' name='q40f' />
+            <column datatype='string' name='q40if1' />
+            <column datatype='string' name='q40jf1' />
+            <column datatype='string' name='q40kf1' />
+            <column datatype='string' name='q40lf1' />
+            <column datatype='string' name='q40nf2' />
+            <column datatype='string' name='q40of2' />
+            <column datatype='string' name='q40pf2' />
+            <column datatype='string' name='q40qf2' />
+            <column datatype='string' name='q41' />
+            <column datatype='string' name='q42' />
+            <column datatype='string' name='q45a' />
+            <column datatype='string' name='q45b' />
+            <column datatype='string' name='q45c' />
+            <column datatype='string' name='q45d' />
+            <column datatype='string' name='q48a' />
+            <column datatype='string' name='q48b' />
+            <column datatype='string' name='q48c' />
+            <column datatype='string' name='q49a' />
+            <column datatype='string' name='q49b' />
+            <column datatype='string' name='q50a' />
+            <column datatype='string' name='q50b' />
+            <column datatype='string' name='q50c' />
+            <column datatype='string' name='q50d' />
+            <column datatype='string' name='q50ef1' />
+            <column datatype='string' name='q50ff1' />
+            <column datatype='string' name='q50gf1' />
+            <column datatype='string' name='q50hf1' />
+            <column datatype='string' name='q50if2' />
+            <column datatype='string' name='q50jf2' />
+            <column datatype='string' name='q50kf2' />
+            <column datatype='string' name='q50lf2' />
+            <column datatype='string' name='q55' />
+            <column datatype='string' name='q56' />
+            <column datatype='string' name='q57' />
+            <column datatype='string' name='q58' />
+            <column datatype='string' name='q59' />
+            <column datatype='string' name='q60' />
+            <column datatype='string' name='q71' />
+            <column datatype='string' name='q72' />
+            <column datatype='string' name='q78' />
+            <column datatype='string' name='q79' />
+            <column datatype='string' name='q80' />
+            <column datatype='string' name='q81' />
+            <column datatype='string' name='sex' />
+            <column datatype='integer' name='age' />
+            <column datatype='string' name='gen5' />
+            <column datatype='string' name='educ' />
+            <column datatype='string' name='hisp' />
+            <column datatype='string' name='racem1' />
+            <column datatype='string' name='racem2' />
+            <column datatype='string' name='racem3' />
+            <column datatype='string' name='racem4' />
+            <column datatype='string' name='adults' />
+            <column datatype='string' name='racecmb' />
+            <column datatype='string' name='racethn' />
+            <column datatype='string' name='birth_hisp' />
+            <column datatype='string' name='qtaa5' />
+            <column datatype='string' name='lan1' />
+            <column datatype='string' name='lan2' />
+            <column datatype='string' name='lan3' />
+            <column datatype='string' name='lan4' />
+            <column datatype='string' name='marital' />
+            <column datatype='string' name='relig' />
+            <column datatype='string' name='chr' />
+            <column datatype='string' name='qe3sos' />
+            <column datatype='string' name='QE3SO0' />
+            <column datatype='string' name='QE3SO1' />
+            <column datatype='string' name='QE3SO2' />
+            <column datatype='string' name='QE3SO3' />
+            <column datatype='string' name='QE3SO4' />
+            <column datatype='string' name='QE3SO5' />
+            <column datatype='string' name='QE3SO6' />
+            <column datatype='string' name='QE3SO7' />
+            <column datatype='string' name='QE3SO8' />
+            <column datatype='string' name='QE3SO9' />
+            <column datatype='string' name='QE3SOA' />
+            <column datatype='string' name='QE3SOB' />
+            <column datatype='string' name='QE3SOC' />
+            <column datatype='string' name='QE3SOD' />
+            <column datatype='string' name='QE3SOE' />
+            <column datatype='string' name='QE3SOF' />
+            <column datatype='string' name='QE3SOG' />
+            <column datatype='string' name='QE3SOH' />
+            <column datatype='string' name='QE3SOI' />
+            <column datatype='string' name='QE3SOJ' />
+            <column datatype='string' name='QE3SOK' />
+            <column datatype='string' name='QE3SOL' />
+            <column datatype='string' name='QE3SOM' />
+            <column datatype='string' name='QE3SON' />
+            <column datatype='string' name='QE3SOO' />
+            <column datatype='string' name='QE3SOP' />
+            <column datatype='string' name='QE3SOQ' />
+            <column datatype='string' name='QE3SOR' />
+            <column datatype='string' name='QE3SOT' />
+            <column datatype='string' name='QE3SOU' />
+            <column datatype='string' name='QE3SOV' />
+            <column datatype='string' name='QE3SOW' />
+            <column datatype='string' name='QE3SOX' />
+            <column datatype='string' name='QE3SOY' />
+            <column datatype='string' name='QE3SOZ' />
+            <column datatype='string' name='QE3SO10' />
+            <column datatype='string' name='born' />
+            <column datatype='string' name='attend' />
+            <column datatype='string' name='q82' />
+            <column datatype='string' name='q83' />
+            <column datatype='string' name='q84' />
+            <column datatype='string' name='q85' />
+            <column datatype='string' name='income' />
+            <column datatype='string' name='reg' />
+            <column datatype='string' name='party' />
+            <column datatype='string' name='partyln' />
+            <column datatype='string' name='partysum' />
+            <column datatype='string' name='partyideo' />
+            <column datatype='string' name='ideo' />
+            <column datatype='string' name='q86' />
+            <column datatype='string' name='q87' />
+            <column datatype='integer' name='hh1' />
+            <column datatype='string' name='hh3' />
+            <column datatype='string' name='ql1' />
+            <column datatype='string' name='ql1a' />
+            <column datatype='string' name='qc1' />
+            <column datatype='string' name='money2' />
+            <column datatype='string' name='isex' />
+            <column datatype='string' name='ihisp1' />
+            <column datatype='string' name='irace1m1' />
+            <column datatype='string' name='irace1m2' />
+            <column datatype='string' name='irace1m3' />
+            <column datatype='string' name='irace1m4' />
+            <column datatype='string' name='ll' />
+            <column datatype='string' name='cp' />
+            <column datatype='string' name='hispoversample' />
+            <column datatype='string' name='Primary_Language' />
+            <column datatype='string' name='cellweight' />
+            <column datatype='real' name='weight' />
+            <column datatype='string' name='Path' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>respid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[respid]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>respid</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sample</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sample]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>sample</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int_date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[int_date]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>int_date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fcall</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fcall]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>fcall</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attempt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attempt]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>attempt</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>refusal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[refusal]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>refusal</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lang]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>lang</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cregion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cregion]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>cregion</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>density</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[density]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>density</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>usr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[usr]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>usr</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scregion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[scregion]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>scregion</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sstate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sstate]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>sstate</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sdensity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sdensity]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>sdensity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>susr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[susr]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>susr</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>llitext0</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[llitext0]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>llitext0</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>llitext</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[llitext]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>llitext</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qintro2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qintro2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qintro2</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phase</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[phase]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>phase</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qs1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qs1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qs1</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q1c1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q1c1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q1c1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qc1a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qc1a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qc1a</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qb2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qb2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qb2</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qb3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qb3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qb3</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qb4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qb4]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qb4</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qb5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qb5]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qb5</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa6]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa6</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa8]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa8</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa9a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa9a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa9a</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa9b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa9b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa9b</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa9c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa9c]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa9c</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa9d</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa9d]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa9d</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa9e</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa9e]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa9e</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa9f</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa9f]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa9f</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qa9g</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qa9g]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qa9g</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11a</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11b</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11c_b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11c_b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11c_b</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11e_b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11e_b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11e_b</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11h_b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11h_b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11h_b</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11i_b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11i_b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11i_b</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11j_b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11j_b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11j_b</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11at</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11at]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11at</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11bt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11bt]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11bt</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qb12</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qb12]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qb12</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ilang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ilang]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>ilang</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>form</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[form]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>form</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qs3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qs3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qs3</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qs4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qs4]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qs4</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qs5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qs5]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qs5</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qs6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qs6]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qs6</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q1</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q2</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>campnii</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[campnii]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>campnii</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thought</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[thought]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>thought</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q5]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q5</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q9]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q9</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q9a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q9a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q9a</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q9HORSE3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q9HORSE3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>Q9HORSE3</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q10]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q10</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q10a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q10a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q10a</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q10b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q10b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q10b</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q10c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q10c]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q10c</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q10d</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q10d]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q10d</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q10horse</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q10horse]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q10horse</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q11</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q11]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q11</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q12</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q12]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q12</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oftvote</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[oftvote]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>oftvote</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q20</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q20]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q20</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q23</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q23]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q23</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q24f1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q24f1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q24f1</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q25f2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q25f2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q25f2</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q30a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q30a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q30a</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q30b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q30b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q30b</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q33a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q33a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q33a</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q33b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q33b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q33b</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q34a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q34a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q34a</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q34b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q34b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q34b</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q34c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q34c]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q34c</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q35</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q35]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q35</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40a</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40b</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40c]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40c</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40d</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40d]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40d</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40e</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40e]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40e</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40f</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40f]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40f</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40if1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40if1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40if1</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40jf1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40jf1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40jf1</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40kf1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40kf1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40kf1</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40lf1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40lf1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40lf1</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40nf2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40nf2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40nf2</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40of2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40of2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40of2</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40pf2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40pf2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40pf2</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q40qf2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q40qf2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q40qf2</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q41</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q41]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q41</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q42</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q42]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q42</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q45a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q45a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q45a</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q45b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q45b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q45b</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q45c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q45c]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q45c</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q45d</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q45d]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q45d</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q48a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q48a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q48a</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q48b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q48b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q48b</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q48c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q48c]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q48c</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q49a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q49a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q49a</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q49b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q49b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q49b</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50a</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50b</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50b]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50b</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50c]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50c</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50d</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50d]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50d</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50ef1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50ef1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50ef1</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50ff1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50ff1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50ff1</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50gf1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50gf1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50gf1</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50hf1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50hf1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50hf1</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50if2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50if2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50if2</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50jf2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50jf2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50jf2</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50kf2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50kf2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50kf2</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q50lf2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q50lf2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q50lf2</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q55</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q55]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q55</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q56</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q56]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q56</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q57</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q57]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q57</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q58</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q58]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q58</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q59</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q59]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q59</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q60</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q60]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q60</remote-alias>
+            <ordinal>124</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q71</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q71]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q71</remote-alias>
+            <ordinal>125</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q72</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q72]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q72</remote-alias>
+            <ordinal>126</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q78</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q78]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q78</remote-alias>
+            <ordinal>127</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q79</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q79]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q79</remote-alias>
+            <ordinal>128</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q80</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q80]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q80</remote-alias>
+            <ordinal>129</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q81</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q81]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q81</remote-alias>
+            <ordinal>130</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sex]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>sex</remote-alias>
+            <ordinal>131</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>132</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gen5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gen5]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>gen5</remote-alias>
+            <ordinal>133</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>educ</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[educ]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>educ</remote-alias>
+            <ordinal>134</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hisp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hisp]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>hisp</remote-alias>
+            <ordinal>135</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racem1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[racem1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>racem1</remote-alias>
+            <ordinal>136</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racem2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[racem2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>racem2</remote-alias>
+            <ordinal>137</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racem3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[racem3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>racem3</remote-alias>
+            <ordinal>138</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racem4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[racem4]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>racem4</remote-alias>
+            <ordinal>139</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adults</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[adults]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>adults</remote-alias>
+            <ordinal>140</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racecmb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[racecmb]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>racecmb</remote-alias>
+            <ordinal>141</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racethn</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[racethn]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>racethn</remote-alias>
+            <ordinal>142</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>birth_hisp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[birth_hisp]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>birth_hisp</remote-alias>
+            <ordinal>143</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qtaa5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qtaa5]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qtaa5</remote-alias>
+            <ordinal>144</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lan1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lan1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>lan1</remote-alias>
+            <ordinal>145</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lan2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lan2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>lan2</remote-alias>
+            <ordinal>146</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lan3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lan3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>lan3</remote-alias>
+            <ordinal>147</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lan4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lan4]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>lan4</remote-alias>
+            <ordinal>148</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[marital]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>marital</remote-alias>
+            <ordinal>149</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>relig</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[relig]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>relig</remote-alias>
+            <ordinal>150</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[chr]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>chr</remote-alias>
+            <ordinal>151</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qe3sos</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qe3sos]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qe3sos</remote-alias>
+            <ordinal>152</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO0</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO0]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO0</remote-alias>
+            <ordinal>153</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO1</remote-alias>
+            <ordinal>154</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO2</remote-alias>
+            <ordinal>155</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO3</remote-alias>
+            <ordinal>156</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO4]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO4</remote-alias>
+            <ordinal>157</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO5]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO5</remote-alias>
+            <ordinal>158</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO6]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO6</remote-alias>
+            <ordinal>159</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO7]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO7</remote-alias>
+            <ordinal>160</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO8]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO8</remote-alias>
+            <ordinal>161</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO9]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO9</remote-alias>
+            <ordinal>162</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOA]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOA</remote-alias>
+            <ordinal>163</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOB]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOB</remote-alias>
+            <ordinal>164</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOC]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOC</remote-alias>
+            <ordinal>165</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOD]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOD</remote-alias>
+            <ordinal>166</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOE]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOE</remote-alias>
+            <ordinal>167</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOF</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOF]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOF</remote-alias>
+            <ordinal>168</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOG</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOG]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOG</remote-alias>
+            <ordinal>169</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOH]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOH</remote-alias>
+            <ordinal>170</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOI]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOI</remote-alias>
+            <ordinal>171</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOJ</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOJ]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOJ</remote-alias>
+            <ordinal>172</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOK]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOK</remote-alias>
+            <ordinal>173</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOL]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOL</remote-alias>
+            <ordinal>174</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOM]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOM</remote-alias>
+            <ordinal>175</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SON</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SON]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SON</remote-alias>
+            <ordinal>176</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOO]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOO</remote-alias>
+            <ordinal>177</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOP]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOP</remote-alias>
+            <ordinal>178</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOQ</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOQ]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOQ</remote-alias>
+            <ordinal>179</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOR]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOR</remote-alias>
+            <ordinal>180</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOT]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOT</remote-alias>
+            <ordinal>181</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOU</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOU]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOU</remote-alias>
+            <ordinal>182</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOV</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOV]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOV</remote-alias>
+            <ordinal>183</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOW</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOW]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOW</remote-alias>
+            <ordinal>184</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOX</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOX]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOX</remote-alias>
+            <ordinal>185</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOY]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOY</remote-alias>
+            <ordinal>186</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SOZ</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SOZ]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SOZ</remote-alias>
+            <ordinal>187</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QE3SO10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QE3SO10]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>QE3SO10</remote-alias>
+            <ordinal>188</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>born</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[born]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>born</remote-alias>
+            <ordinal>189</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attend</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[attend]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>attend</remote-alias>
+            <ordinal>190</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q82</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q82]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q82</remote-alias>
+            <ordinal>191</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q83</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q83]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q83</remote-alias>
+            <ordinal>192</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q84</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q84]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q84</remote-alias>
+            <ordinal>193</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q85</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q85]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q85</remote-alias>
+            <ordinal>194</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>income</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[income]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>income</remote-alias>
+            <ordinal>195</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reg</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reg]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>reg</remote-alias>
+            <ordinal>196</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>party</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[party]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>party</remote-alias>
+            <ordinal>197</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>partyln</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[partyln]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>partyln</remote-alias>
+            <ordinal>198</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>partysum</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[partysum]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>partysum</remote-alias>
+            <ordinal>199</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>partyideo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[partyideo]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>partyideo</remote-alias>
+            <ordinal>200</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ideo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ideo]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>ideo</remote-alias>
+            <ordinal>201</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q86</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q86]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q86</remote-alias>
+            <ordinal>202</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q87</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[q87]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>q87</remote-alias>
+            <ordinal>203</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hh1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hh1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>hh1</remote-alias>
+            <ordinal>204</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hh3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hh3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>hh3</remote-alias>
+            <ordinal>205</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ql1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ql1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>ql1</remote-alias>
+            <ordinal>206</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ql1a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ql1a]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>ql1a</remote-alias>
+            <ordinal>207</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qc1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qc1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>qc1</remote-alias>
+            <ordinal>208</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>money2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[money2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>money2</remote-alias>
+            <ordinal>209</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[isex]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>isex</remote-alias>
+            <ordinal>210</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ihisp1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ihisp1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>ihisp1</remote-alias>
+            <ordinal>211</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>irace1m1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[irace1m1]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>irace1m1</remote-alias>
+            <ordinal>212</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>irace1m2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[irace1m2]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>irace1m2</remote-alias>
+            <ordinal>213</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>irace1m3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[irace1m3]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>irace1m3</remote-alias>
+            <ordinal>214</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>irace1m4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[irace1m4]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>irace1m4</remote-alias>
+            <ordinal>215</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ll</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ll]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>ll</remote-alias>
+            <ordinal>216</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cp]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>cp</remote-alias>
+            <ordinal>217</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hispoversample</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hispoversample]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>hispoversample</remote-alias>
+            <ordinal>218</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary_Language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Primary_Language]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>Primary_Language</remote-alias>
+            <ordinal>219</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cellweight</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cellweight]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>cellweight</remote-alias>
+            <ordinal>220</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[weight]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>weight</remote-alias>
+            <ordinal>221</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Path</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Path]</local-name>
+            <parent-name>[shortPew14.csv+]</parent-name>
+            <remote-alias>Path</remote-alias>
+            <ordinal>222</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Attempt' datatype='integer' name='[attempt]' role='measure' type='quantitative' />
+      <column caption='Cregion' datatype='string' name='[cregion]' role='dimension' type='nominal' />
+      <column caption='Density' datatype='string' name='[density]' role='dimension' type='nominal' />
+      <column caption='Fcall' datatype='integer' name='[fcall]' role='measure' type='quantitative' />
+      <column caption='Int Date' datatype='integer' name='[int_date]' role='measure' type='quantitative' />
+      <column caption='Lang' datatype='string' name='[lang]' role='dimension' type='nominal' />
+      <column caption='Llitext0' datatype='string' name='[llitext0]' role='dimension' type='nominal' />
+      <column caption='Llitext' datatype='string' name='[llitext]' role='dimension' type='nominal' />
+      <column caption='Phase' datatype='integer' name='[phase]' role='measure' type='quantitative' />
+      <column caption='Q11A' datatype='string' name='[q11a]' role='dimension' type='nominal' />
+      <column caption='Q11At' datatype='string' name='[q11at]' role='dimension' type='nominal' />
+      <column caption='Q11B' datatype='string' name='[q11b]' role='dimension' type='nominal' />
+      <column caption='Q11Bt' datatype='string' name='[q11bt]' role='dimension' type='nominal' />
+      <column caption='Q11C B' datatype='string' name='[q11c_b]' role='dimension' type='nominal' />
+      <column caption='Q11E B' datatype='string' name='[q11e_b]' role='dimension' type='nominal' />
+      <column caption='Q11H B' datatype='string' name='[q11h_b]' role='dimension' type='nominal' />
+      <column caption='Q11I B' datatype='string' name='[q11i_b]' role='dimension' type='nominal' />
+      <column caption='Q11J B' datatype='string' name='[q11j_b]' role='dimension' type='nominal' />
+      <column caption='Q1C1' datatype='string' name='[q1c1]' role='dimension' type='nominal' />
+      <column datatype='string' name='[q45a]' role='dimension' type='nominal' />
+      <column caption='Qa1' datatype='string' name='[qa1]' role='dimension' type='nominal' />
+      <column caption='Qa6' datatype='string' name='[qa6]' role='dimension' type='nominal' />
+      <column caption='Qa8' datatype='string' name='[qa8]' role='dimension' type='nominal' />
+      <column caption='Qa9A' datatype='string' name='[qa9a]' role='dimension' type='nominal' />
+      <column caption='Qa9B' datatype='string' name='[qa9b]' role='dimension' type='nominal' />
+      <column caption='Qa9C' datatype='string' name='[qa9c]' role='dimension' type='nominal' />
+      <column caption='Qa9D' datatype='string' name='[qa9d]' role='dimension' type='nominal' />
+      <column caption='Qa9E' datatype='string' name='[qa9e]' role='dimension' type='nominal' />
+      <column caption='Qa9F' datatype='string' name='[qa9f]' role='dimension' type='nominal' />
+      <column caption='Qa9G' datatype='string' name='[qa9g]' role='dimension' type='nominal' />
+      <column caption='Qb12' datatype='string' name='[qb12]' role='dimension' type='nominal' />
+      <column caption='Qb2' datatype='string' name='[qb2]' role='dimension' type='nominal' />
+      <column caption='Qb3' datatype='string' name='[qb3]' role='dimension' type='nominal' />
+      <column caption='Qb4' datatype='string' name='[qb4]' role='dimension' type='nominal' />
+      <column caption='Qb5' datatype='string' name='[qb5]' role='dimension' type='nominal' />
+      <column caption='Qc1A' datatype='string' name='[qc1a]' role='dimension' type='nominal' />
+      <column caption='Qintro2' datatype='string' name='[qintro2]' role='dimension' type='nominal' />
+      <column caption='Qs1' datatype='string' name='[qs1]' role='dimension' type='nominal' />
+      <column caption='Refusal' datatype='string' name='[refusal]' role='dimension' type='nominal' />
+      <column caption='Respid' datatype='integer' name='[respid]' role='measure' type='quantitative' />
+      <column caption='Sample' datatype='string' name='[sample]' role='dimension' type='nominal' />
+      <column caption='Scregion' datatype='string' name='[scregion]' role='dimension' type='nominal' />
+      <column caption='Sdensity' datatype='string' name='[sdensity]' role='dimension' type='nominal' />
+      <column caption='Sstate' datatype='string' name='[sstate]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Susr' datatype='string' name='[susr]' role='dimension' type='nominal' />
+      <column caption='Usr' datatype='string' name='[usr]' role='dimension' type='nominal' />
+      <column-instance column='[q11a]' derivation='Count' name='[cnt:q11a:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[q45a]' derivation='Count' name='[cnt:q45a:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[q11a]' derivation='Count' name='[pcto:cnt:q11a:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[q11a]' derivation='Count' name='[pcto:cnt:q11a:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[q45a]' derivation='Count' name='[pcto:cnt:q45a:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[q45a]' derivation='Count' name='[pcto:cnt:q45a:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <layout dim-ordering='alphabetic' dim-percentage='0.52439' measure-ordering='alphabetic' measure-percentage='0.47561' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07ddzp714uqfau13wfl251rreufa].[cnt:q11a:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.07ddzp714uqfau13wfl251rreufa].[pcto:cnt:q11a:qk:2]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07ddzp714uqfau13wfl251rreufa].[pcto:cnt:q45a:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07ddzp714uqfau13wfl251rreufa].[pcto:cnt:q11a:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.07ddzp714uqfau13wfl251rreufa].[pcto:cnt:q45a:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07ddzp714uqfau13wfl251rreufa].[cnt:q45a:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='shortPew14.csv+ (Multiple Connections)' name='federated.07ddzp714uqfau13wfl251rreufa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07ddzp714uqfau13wfl251rreufa'>
+            <column-instance column='[q11a]' derivation='None' name='[none:q11a:nk]' pivot='key' type='nominal' />
+            <column-instance column='[q45a]' derivation='None' name='[none:q45a:nk]' pivot='key' type='nominal' />
+            <column-instance column='[q11a]' derivation='Count' name='[pcto:cnt:q11a:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[q45a]' derivation='Count' name='[pcto:cnt:q45a:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Q11A' datatype='string' name='[q11a]' role='dimension' type='nominal' />
+            <column datatype='string' name='[q45a]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07ddzp714uqfau13wfl251rreufa].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07ddzp714uqfau13wfl251rreufa].[pcto:cnt:q11a:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07ddzp714uqfau13wfl251rreufa].[pcto:cnt:q45a:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.07ddzp714uqfau13wfl251rreufa].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.07ddzp714uqfau13wfl251rreufa].[Multiple Values]</rows>
+        <cols>([federated.07ddzp714uqfau13wfl251rreufa].[none:q45a:nk] / [federated.07ddzp714uqfau13wfl251rreufa].[none:q11a:nk])</cols>
+        <percentages enabled='true' mode='row' />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07ddzp714uqfau13wfl251rreufa].[:Measure Names]</field>
+            <field>[federated.07ddzp714uqfau13wfl251rreufa].[none:q11a:nk]</field>
+            <field>[federated.07ddzp714uqfau13wfl251rreufa].[none:q11b:nk]</field>
+            <field>[federated.07ddzp714uqfau13wfl251rreufa].[none:q45a:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
